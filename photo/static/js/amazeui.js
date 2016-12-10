@@ -10004,7 +10004,7 @@
                         //图片放大效果
                         $(function () {
                             $(".am-pureview-bar-active")
-                                .append("<div style='position:absolute;z-index:10000000000000;width: 400px;;height:50px;bottom:30px;left:50%;margin-left:-200px;cursor: pointer'><img class='rotate_jia' src='images/jiahao.png' width='60' alt=''/><img class='rotate_div' style='margin:0 10px; ' src='images/xuanzhuan.png' width='60' alt=''/><img class='rotate_jian'  src='images/jianhao.png' width='60' alt=''/><img class='up-img' src='images/shang.png'  alt=''><img class='down-img' src='images/xia.png'  alt=''><img class='left-img' src='images/zuo.png'   alt=''><img class='right-img' src='images/you.png'   alt=''><img class='middle-img' src='images/zhong.png'   alt=''></div></div>");
+                                .append("<div style='position:absolute;z-index:10000000000000;width: 400px;;height:50px;bottom:30px;left:50%;margin-left:-200px;cursor: pointer'><img class='rotate_jia' src='/static/images/jiahao.png' width='60' alt=''/><img class='rotate_div' style='margin:0 10px; ' src='/static/images/xuanzhuan.png' width='60' alt=''/><img class='rotate_jian'  src='/static/images/jianhao.png' width='60' alt=''/><img class='up-img' src='/static/images/shang.png'  alt=''><img class='down-img' src='/static/images/xia.png'  alt=''><img class='left-img' src='/static/images/zuo.png'   alt=''><img class='right-img' src='/static/images/you.png'   alt=''><img class='middle-img' src='/static/images/zhong.png'   alt=''></div></div>");
                             var rotate = 0;
                             $(".rotate_div").on("click", function () {
                                 rotate += 90;
